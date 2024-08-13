@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: ComicNeue;
+  src: url(../fonts/ComicNeue-BoldItalic.ttf);
+}
+body {
+  font-family: ComicNeue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+
+  background-color: #424874;
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+.card {
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 250px;
+  text-align: center;
+  background-color: #a6b1e1;
+  color: #dcd6f7;
+}
+.card h3 {
+  margin: 0 0 10px;
+  color: #555;
+  font-size: 20px;
+}
+.card p {
+  margin: 5px 0;
+  font-size: 15px;
+}
